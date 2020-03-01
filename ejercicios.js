@@ -216,6 +216,8 @@ const options = op => {
         rl.close();
       });
       break;
+    default:
+        rl.close();
   }
 };
 
